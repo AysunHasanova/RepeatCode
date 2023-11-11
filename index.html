@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--TEXT FORMATTING-->
+    <em>Hello</em><br /><!--Sadece vizual olaraq deyisir-->
+    <i>Hello</i><br />
+    <b>Hello</b><br /> <!--Sadece vizual olaraq deyisir-->
+    <strong>Hello</strong><br />
+    <mark>Hello</mark><br /><!--Highlight kimi uzerinden reng cekir-->
+    <!-- <p>Hello</p> -->
+    <small>Hello</small><br />
+    <del>Hello</del><!--Sozun uzerinden xett cekir-->
+    <ins>Hello</ins><!--Altdan xett cekir-->
+    <!-- <span>World</span> -->
+    <sub>Hello</sub><!--Setrin asagisindan yazir -->
+    <sup>Hello</sup><!--Setrin yuxarisindan yazir-->
+
+    <!--HTML Quotation-->
+    <blockquote>Hello World</blockquote><!--Abzasdan yazir--><q>Hello</q><!--Dirnaq arasinda yazir-->
+    <abbr title="Ganja State University">GSU</abbr><!--Ixtisar(Abbreviations)-->
+    <address>Ganja</address><!--Italic yazir(Contact Information)-->
+    <cite>Cite</cite><!--italic (Work Title)-->
+    <bdo dir="ltr">Napin</bdo><!--Normal yazilis-->
+    <bdo dir="rtl">Napin</bdo> <!--Tersden yazilis-->
+
+    <!--Links-->
+    <a href="https://www.w3schools.com/" target="_top">salam</a>
+    <a href="https://www.w3schools.com/" target="_blank">salam</a>
+    <a href="https://www.w3schools.com/" target="_parent">salam</a>
+    <a href="https://www.w3schools.com/" target="_self">salam</a>
+
+    <!--Image Map-->
+    <img
+      src="https://w.forfun.com/fetch/8b/8b69e755f97a0501ff93e1edee9bffd6.jpeg"
+      alt="nature..."
+      usemap="#mapwork"
+      style="width: 500px;height: 400px;"
+    />
+    <map name="mapwork">
+        <area shape="circle" coords="34,44,270,350" href="https://www.w3schools.com/" alt="">
+        <area shape="rect" coords="34,44,270,350" href="https://www.w3schools.com/" alt="">
+        <area shape="poly" coords="34,44,270,350" href="https://www.w3schools.com/" alt=""><!--coxbucaqli-->
+        <area shape="default" coords="34,44,270,350" href="https://www.w3schools.com/" alt="">
+    </map><!--Image-in mueyyen hisselerinde basqa sehifeye kecid yaratmaga komek edir-->
+
+
+    <!--Picture element-->
+    <picture>
+        <source media="(min-width: 650px)" srcset="https://www.w3schools.com/htmL/img_car.jpg">
+        <source media="(min-width:450px )" srcset="https://w.forfun.com/fetch/b4/b4061f05d1365648decb0cac791373a3.jpeg">
+        <img src="https://w.forfun.com/fetch/8b/8b69e755f97a0501ff93e1edee9bffd6.jpeg" alt="">
+    </picture><!--Show different images for different screen sizes-->
+
+
+
+  </body>
+</html>
