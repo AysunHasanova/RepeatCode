@@ -1,0 +1,37 @@
+.head {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: black;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .social_medias {
+      letter-spacing: 10px;
+
+      .fa-brands {
+        color: white !important;
+        &:hover {
+          transform: rotateY(180deg);
+          transition-duration: 0.5s;
+        }
+      }
+    }
+    .phoneNumber {
+      padding: 10px 17px;
+      border: 1px solid #e5bf4a;
+      a {
+        color: #e5bf4a !important;
+      }
+      &:hover {
+        background-color: #e5bf4a;
+        transition: 1s;
+        a {
+          transition: 1s;
+          color: white !important;
+        }
+      }
+    }
+  }
+}

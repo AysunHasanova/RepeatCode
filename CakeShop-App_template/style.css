@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  color: black !important;
+}
+
+.head {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+.head .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head .container .social_medias {
+  letter-spacing: 10px;
+}
+.head .container .social_medias .fa-brands {
+  color: white !important;
+}
+.head .container .social_medias .fa-brands:hover {
+  transform: rotateY(180deg);
+  transition-duration: 0.5s;
+}
+.head .container .phoneNumber {
+  padding: 10px 17px;
+  border: 1px solid #e5bf4a;
+}
+.head .container .phoneNumber a {
+  color: #e5bf4a !important;
+}
+.head .container .phoneNumber:hover {
+  background-color: #e5bf4a;
+  transition: 1s;
+}
+.head .container .phoneNumber:hover a {
+  transition: 1s;
+  color: white !important;
+}/*# sourceMappingURL=style.css.map */
