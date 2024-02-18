@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header .header .container {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .container nav ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 !important;
+}
+header .header .container nav ul li {
+  padding-top: 8px;
+}
+header .header .container nav ul li a {
+  font-size: 18px;
+  color: #000;
+}
+header .header .container nav ul li a.home {
+  color: #f45d96 !important;
+}
+header .header .container nav ul li a:hover {
+  color: #f45d96;
+}
+header .carousel .carousel-caption {
+  color: #000;
+  width: 25%;
+  text-align: start;
+  margin-bottom: 30px;
+}
+header .carousel .carousel-caption span {
+  font-family: "Quicksand", sans-serif;
+}
+header .carousel .carousel-caption h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 43px;
+  margin-bottom: 25px;
+}
+header .carousel .carousel-caption .shop {
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #f45d96;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+
+.inform {
+  height: 20vh;
+}
+.inform .row {
+  margin: 40px 0;
+  gap: 20px;
+}
+.inform .row .col img {
+  width: 50px;
+  height: 50px;
+}
+.inform .row .col .text {
+  margin-left: 20px;
+}
+.inform .row .col .text h4 {
+  font-family: "Libre Baskerville", serif;
+}
+.inform .row .col .text p {
+  font-family: "Quicksand", sans-serif;
+}/*# sourceMappingURL=style.css.map */

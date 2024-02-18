@@ -1,0 +1,56 @@
+header {
+  .header {
+    .container {
+      padding: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      nav {
+        ul {
+          display: flex;
+          gap: 30px;
+          margin: 0 !important;
+          li {
+            padding-top: 8px;
+
+            a {
+              font-size: 18px;
+              color: #000;
+              &.home {
+                color: #f45d96 !important;
+              }
+              &:hover {
+                color: #f45d96;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .carousel {
+    .carousel-caption {
+      color: #000;
+      width: 25%;
+      text-align: start;
+      // padding: 0 !important;
+      margin-bottom: 30px;
+      span {
+        font-family: "Quicksand", sans-serif;
+      }
+      h2 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 43px;
+        margin-bottom: 25px;
+      }
+      .shop {
+        letter-spacing: 2px;
+        color: #fff;
+        background-color: #f45d96;
+        padding: 15px 25px;
+        border-radius: 25px;
+      }
+    }
+  }
+}
