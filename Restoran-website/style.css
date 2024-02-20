@@ -40,7 +40,7 @@ header .header .container nav ul li a.home {
 header .header .container nav ul li a:hover {
   color: #fea116;
 }
-.hero-banner{
+.hero-banner {
   margin-top: 40px;
 }
 header .header .container .hero-banner .hero-text h1 {
@@ -48,14 +48,95 @@ header .header .container .hero-banner .hero-text h1 {
   font-family: "Nunito Sans", sans-serif !important;
 }
 .hero-image .hero-img {
-  animation: rotation 6s infinite linear;
+  animation: rotation 25s infinite linear;
 }
 
 @keyframes rotation {
-  from{
-      transform: rotate(0deg);
+  from {
+    transform: rotate(0deg);
   }
-  to{
-      transform: rotate(360deg);
+  to {
+    transform: rotate(360deg);
   }
 }
+
+.logos .row {
+  padding: 80px 0;
+  gap: 25px;
+}
+.fa-solid {
+  font-size: 48px;
+  color: #fea116;
+}
+.logos .col h5 {
+  margin-top: 20px;
+  /* font-size: 20px; */
+  font-family: "Nunito Sans", sans-serif;
+}
+.logos .col p {
+  font-family: "Heebo", sans-serif;
+}
+.logos .col {
+  padding: 40px 20px;
+  box-shadow: -1px 0px 20px 3px #d1cfcfbe;
+}
+.logos .col:hover {
+  transition: all 0.6s;
+  background-color: #fea116;
+  color: #fff;
+}
+.logos .col:hover i {
+  transition: all 0.6s;
+  color: #fff;
+}
+.about-img {
+  position: relative;
+  width: 50%;
+}
+.about-img-1,
+.about-img-4 {
+  width: 280px;
+}
+.about-img-2,
+.about-img-3 {
+  width: 200px;
+}
+.about-us {
+  height: 100vh;
+}
+.about-us .container {
+  display: flex;
+}
+.about-img-2 {
+  position: absolute;
+  top: 80px;
+  left: 290px;
+}
+.about-img-4 {
+  position: absolute;
+  top: 290px;
+  left: 290px;
+}
+.about-img-3 {
+  position: absolute;
+  top: 290px;
+  left: 80px;
+}
+.about-text {
+  width: 55%;
+  padding-top: 80px;
+  padding-left: 70px;
+}
+.about-text .fa-utensils {
+  font-size: 40px;
+}
+.about-text h5 {
+  font-family: "Pacifico", cursive;
+  color: #fea116;
+}
+.about-text p {
+  color: #666565;
+  font-family: "Heebo", sans-serif;
+  padding-top: 25px;
+}
+
